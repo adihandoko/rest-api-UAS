@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/yasin/belajar/rumah sakit api/venv"
+VIRTUAL_ENV="/media/handoko/Work/BELAJAR/rest-api-UAS/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

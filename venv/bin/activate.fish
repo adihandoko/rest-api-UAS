@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/yasin/belajar/rumah sakit api/venv"
+set -gx VIRTUAL_ENV "/media/handoko/Work/BELAJAR/rest-api-UAS/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

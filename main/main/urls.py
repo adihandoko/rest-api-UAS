@@ -19,6 +19,7 @@ from master import views
 from rest_framework_simplejwt import views as jwt_views
 
 urlpatterns = [
+    path('api/pasienpage/', views.PasienPageView.as_view(), name='pasien'),
     path('api/pasien/', views.PasienView.as_view(), name='pasien'),
     path('api/token/', jwt_views.TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/token/refresh/', jwt_views.TokenRefreshView.as_view(), name='token_refresh'),
